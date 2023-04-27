@@ -1,38 +1,219 @@
-.App {
+img {
+  width: 100%;
+}
+
+.btns {
+  background-color: darkgreen;
+  color: #fff;
+  margin-top: 20px;
+  border: 0;
+  padding: 8px 30px;
+}
+
+.blogs h2 {
+  padding: 30px 0px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.list {
+  text-align: left;
+  border-radius: 6px;
+  border: 1px solid #c4c4c4;
+  position: relative;
+  padding: 10px;
+  margin: 15px 10px;
+  width: 31% !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.list h4 {
+  padding: 0;
+  margin: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.list h1 {
+  padding: 0;
+  margin: 0;
+}
+
+
+.list p {
+  padding: 0;
+  margin: 0;
+}
+
+
+ul.naviga a {
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.sdd h2 {
+  padding: 30px 20px 31px;
+  text-align: center;
+}
+
+.ddd {
+  background: #dedede;
+  padding: 15px;
+  margin: 0 10px;
+  width: 31% !important;
+}
+
+
+section.form-valid {
+  padding: 3rem 0rem;
+}
+
+section.form-valid input {
+  width: 100%;
+  margin-top: 10px;
+}
+
+
+section.form-valid label {
+  width: 100%;
+  margin-top: 15px;
+  position: relative;
+}
+
+section.form-valid button.btn.btn-primary {
+  margin-top: 20px;
+}
+
+/* svg {
+  font-size: 0px;
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+} */
+
+span.error {
+  color: red;
+}
+
+
+.loadtime {
+  background: #000;
+  height: 100vh;
+  text-align: center;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+/* cud css start from here */
+
+.users-table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.users-table td,
+.customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.users-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.users-table tr:hover {
+  background-color: #ddd;
+}
+
+.users-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.txt-red {
+  color: red;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+/* c ud css end here */
+
+
+
+
+
+
+form.start-fr input {
+  width: 100%;
+}
+
+form.start-fr textarea {
+  width: 100%;
+}
+
+
+.mng-half th {
+  padding-top: 5px;
+  padding-bottom:5px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+  width: 100%;
+}
+
+.mng-half td {
+  border: 1px solid #ddd;
+  padding: 8px;
+   background-color: #f3f3f3;
+}
+
+.mng-half select {
+  word-wrap: normal;
+  width: 100%;
+  background: #f3f3f3;
+  height: 40px;
+}
+
+.userss-table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #04AA6D;
+}
+
+.userss-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  background-color: #f3f3f3;
+}
+
+form.form-manage {
+  margin: 60px auto;
+  background: #efefef;
+  padding: 30px;
+  -webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+  box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+
+}
+
+form.form-manage input {
+  width: 100%;
+  padding: 5px;
+}
+
+form.form-manage label {
+  display: inline-block;
+}
+
+form.form-manage textarea {
+  width: 100%;
+  margin-bottom: 10px;
 }
